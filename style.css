@@ -257,7 +257,7 @@ main{
 
 footer{
     color:white;
-    text-align:center; 
+    margin-left:1em; 
 }
 }
 
@@ -425,6 +425,10 @@ main{
 
 .kontakt .fa{
     font-size: 5em;
+}
+    
+footer{
+    margin:0;
 }
 }
 
