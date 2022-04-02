@@ -14,7 +14,7 @@ qnToClick.addEventListener("click", (e) =>{
 })
 
 pageToClick.addEventListener("click", (e) =>{
-    window.open("http://https://patrykxly.github.io/shoppingsite/");
+    window.open("https://patrykxly.github.io/shoppingsite/");
 })
 
 linkedinUrl.addEventListener("click", (e) =>{
