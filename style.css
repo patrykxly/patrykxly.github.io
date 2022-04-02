@@ -257,7 +257,8 @@ main{
 
 footer{
     color:white;
-    margin-left:2em; 
+    margin-left:2.2em;
+    font-size:.625em
 }
 }
 
@@ -426,9 +427,9 @@ main{
 .kontakt .fa{
     font-size: 5em;
 }
-    
+
 footer{
-    margin:0;
+    font-size:1em;
 }
 }
 
