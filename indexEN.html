@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <title>Patryk Sokoliński</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark md-3" >
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="nav navbar-nav">
+                    <li class="nav-item active">
+                    <a class="nav-link" href="./indexEN.html#aboutEN" id = "first">About</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="./indexEN.html#praceEN">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./indexEN.html#kontaktEN">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./index.html"><img src = "images/plFlag.png" alt="ukFlag" class = "flag"></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <img src = "images/headerPhoto2.jpg" alt = "zaokragloneJpg"/ width = "115px" height = "115px">
+        <h2>Patryk Sokoliński</h2>
+        <h4>2nd year Applied Computer Science student</h4>
+        <div class = "row justify-content-center">
+            <a href = "http://linkedin.com/in/psokolinski1" class = "headerRef"><i class='fa fa-linkedin'></i></a>
+            <a href = "https://github.com/patrykxly" class = "headerRef"><i class='fa fa-github'></i></a>
+        </div>
+    </header>
+    <main>
+    <div class = 'about'>
+        <a name = 'aboutEN'>
+            <img src = './images/photo.jpg' alt = 'Moje zdjecie' width = '200px' height = '250px'/>
+            <h3>About me</h3>
+            <hr id = "separateEN">
+            <p>My name is Patryk Sokoliński. I'm in my second year of Applied Computer Science at the faculty of Physics and Applied Computer Science at the AGH UST in Cracow. Since several years programming is my big passion. Creating websites is the thing that draws my attention the most. Since the beginnings of high school I was very intrigued by the way websites are created and how can you edit them. I am eager to create new pages, each time learning new things and making the code with better quality. I've already created first commercial site in WordPress, however developing pages through coding is what satisfies me more. I often watch some tutorials or just use any materials in order to improve my existing projects. It is also a big pleasure to me to code in C++. I enjoy solving more and more difficult tasks, it really pushes me ahead to learn and explore new features.</p> 
+        </a>
+    </div>
+    <div class="skillsContent">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 80%;">
+                            <h3 class="progress-title">HTML5</h3>
+                            <div class="progress-value">80%</div>
+                        </div>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 65%;">
+                            <h3 class="progress-title">CSS3</h3>
+                            <div class="progress-value">65%</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 65%;">
+                            <h3 class="progress-title">C++</h3>
+                            <div class="progress-value">65%</div>
+                        </div>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 60%;">
+                            <h3 class="progress-title">WordPress</h3>
+                            <div class="progress-value">6o%</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 60%;">
+                            <h3 class="progress-title">Bootstrap</h3>
+                            <div class="progress-value">60%</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 50%;">
+                            <h3 class="progress-title">JavaScript</h3>
+                            <div class="progress-value">50%</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button id = "downloadButton" type="submit" onclick="window.open('cv.pdf')">DOWNLOAD CV</button>
+    </div>
+    <a name = 'praceEN' class = "prace">
+        <h2>Sample projects</h2>
+        <hr id = "hrCenter">
+        <hr><hr>
+        <div class="row justify-content-center enRow">
+            <div class = "col-sm-3 " id =  "pageClick">
+                <p>Fully responsive e-commerce website for which I used HTML, CSS and JavaScript.</p>
+                <img src = './images/shop.jpg' alt = "sklepimg" class ='img-responsive fit-image'>
+            </div>
+            <div class = "col-sm-3 offset-md-1 " id = "qnClick">
+                <p class="pToMarginEN">Site made by me on comission using WordPress.</p>
+                <img src = './images/qn.jpg' alt = "quicknailsimg" class ='img-responsive fit-image imgToMarginEN'>
+            </div>
+            <div class = "col-sm-3 offset-md-1" id = "ghClick">
+                <p class="pToMarginEN">C++ programs that I made during classes at the university.</p>
+                <img src = './images/gitIMG.jpg' alt = "qitimg" class ='img-responsive fit-image imgToMarginEN3'>
+            </div>
+        </div>
+    </a>
+    <div class = 'kontakt'>
+        <a name = 'kontaktEN'>
+            <h2>Contact</h2>
+            <hr id = "kontaktHrEN">
+            <div class="row">
+                <div class="col-md-6 d-flex justify-content-center text-center">
+                    <i class='fa fa-envelope'></i>
+                </div>
+                <div class="col-md-6 d-flex justify-content-center text-center">
+                    <p id = "mailUrl">psokolinski01@gmail.com</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 d-flex justify-content-center text-center">
+                    <i class='fa fa-linkedin'></i>
+                </div>
+                <div class="col-md-6 d-flex justify-content-center text-center">
+                    <p id = "linkedUrl">www.linkedin.com/in/psokolinski1</p>
+                </div>
+            </div>
+        </a>
+    </div>
+    </main>
+    <footer>
+    <div class = "row justify-content-center">
+        <p>Copyright © 2022 Patryk Sokoliński. All rights reserved.</p>
+    </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="./index.js"></script>    
+    </body>
+</html>
