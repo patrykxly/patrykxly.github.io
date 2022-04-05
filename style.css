@@ -41,6 +41,15 @@ header img{
     border-radius:50%;
 }
 
+.flag{
+    border-radius:0;
+    width:30px;
+    height:25px;
+    margin-top:0;
+    margin-bottom:.1em;
+}
+
+
 header h2,h4{
     text-align:center;
     line-height:1.6em;
@@ -89,8 +98,23 @@ main{
     color:rgb(172, 60, 52);
 }
 
+#separateEN{
+    border:none;
+    border-top:0.15em solid;
+    width:7em;
+    margin: .8em 0 1em 0;
+    color:rgb(172, 60, 52);
+}
+
 .about{
-    margin-bottom:4em;
+    overflow:auto;
+    margin-bottom:2.5em;    
+}
+
+.about::after{
+    content:"";
+    clear:both;
+    display:table;
 }
 
 .skillsContent .container{
@@ -194,6 +218,7 @@ main{
     border-top:0.15em solid;
 }
 
+
 .prace .col-sm-3{
     background-color: rgb(172, 60, 52);
     padding:0;
@@ -221,10 +246,10 @@ main{
     margin-top: 1.6em;
 }
 
+
 .prace .col-sm-3 .pToMargin{
     padding-top:1.5em;
 }
-
 
 .kontakt h2{
     margin-top:2em;
@@ -235,6 +260,13 @@ main{
     border:none;
     border-bottom: rgb(172, 60, 52) 0.15em solid;
     width:10em;
+    align-self:center;
+}
+
+#kontaktHrEN{
+    border:none;
+    border-bottom: rgb(172, 60, 52) 0.15em solid;
+    width:5em;
     align-self:center;
 }
 
@@ -262,6 +294,21 @@ footer{
 }
 }
 
+@media (min-width:600px) and (max-width:1024px){
+    .prace .col-sm-3 .pToMarginEN{
+        margin-top:2.2em;
+    }
+
+    .imgToMarginEN{
+        margin-top:1.5em;    
+    }
+
+    .imgToMarginEN3{
+        margin-top:1.5em;    
+    }
+}
+
+
 
 @media (min-width:770px) and (max-width:1024px){
     .kontakt p{
@@ -272,6 +319,16 @@ footer{
 
     #linkedUrl{
         margin-right:105%;
+    }
+}
+
+@media(min-width:810px) and (max-width:1024px){
+    .imgToMarginEN{
+        margin-top:0;    
+    }
+
+    .imgToMarginEN3{
+        margin-top:0;    
     }
 }
 
@@ -292,7 +349,7 @@ footer{
 }
 
 main{
-    margin: 5em 4em 0 4em;
+    margin: 2.5em 4em 0 4em;
     color:white;
 }
 
@@ -302,12 +359,21 @@ main{
     border-radius:5%;
     margin-right: 2em;
     margin-left:4em;
+    margin-top:3em;
 }
 
 #separate{
     border:none;
     border-top:0.15em solid;
     width:5em;
+    margin: .7em 0 .1em 18em;
+    color:rgb(172, 60, 52);
+}
+
+#separateEN{
+    border:none;
+    border-top:0.15em solid;
+    width:7.5em;
     margin: .7em 0 .1em 18em;
     color:rgb(172, 60, 52);
 }
@@ -358,6 +424,7 @@ main{
     margin: -1em auto 0 auto;
     width:10em;
     border:none;
+    border-top:0.15em solid rgb(172, 60, 52);
 }
 
 .prace .col-sm-3{
@@ -382,6 +449,18 @@ main{
     padding-top:.5em;
 }
 
+.prace .col-sm-3 .imgToMarginEN{
+    margin-top:1em;
+}
+
+.prace .col-sm-3 .imgToMarginEN3{
+    margin-top:1em;
+}
+
+.prace .col-sm-3 .pToMarginEN{
+    padding-top:.5em;
+}
+
 .prace .col-sm-3:hover{
     background-color: rgb(138, 18, 0);
 }
@@ -399,6 +478,12 @@ main{
 
 #kontaktHr{
     width:12em;
+    margin-left:.2em;
+    margin-top:0;
+}
+
+#kontaktHrEN{
+    width:5em;
     margin-left:.2em;
     margin-top:0;
 }
@@ -435,6 +520,30 @@ footer{
 
 @media (min-width:1661px){
     .skillsContent .container{
-        margin-top:8em;
+        margin-top:3em;
+    }
+}
+
+@media(min-width:1400px){
+    .prace .col-sm-3 .pToMarginEN{
+        padding-top:0;
+    }
+    .prace .col-sm-3 .imgToMarginEN{
+        margin-top:0;
+    }
+    .prace .col-sm-3 .imgToMarginEN3{
+        margin-top:0;
+    }
+}
+
+@media(min-width:1900px){
+    .prace .col-sm-3 .pToMarginEN{
+        padding-top:.5em;
+    }
+    .prace .col-sm-3 .imgToMarginEN{
+        margin-top:1em;
+    }
+    .prace .col-sm-3 .imgToMarginEN3{
+        margin-top:1em;
     }
 }
