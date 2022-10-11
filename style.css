@@ -302,10 +302,6 @@ footer{
     .imgToMarginEN{
         margin-top:1.5em;    
     }
-
-    .imgToMarginEN3{
-        margin-top:1.5em;    
-    }
 }
 
 
@@ -337,7 +333,7 @@ footer{
 
 .headerRef{
     margin:0 0 1% 2%;  
-    -webkit-transition: color 0.5s;
+    -webkit-transition: color .5s;
     -moz-transition:    color .5s;
     -ms-transition:     color .5s;
     -o-transition:      color .5s;
@@ -449,10 +445,6 @@ main{
 }
 
 .prace .col-sm-3 .imgToMarginEN{
-    margin-top:1em;
-}
-
-.prace .col-sm-3 .imgToMarginEN3{
     margin-top:1em;
 }
 
