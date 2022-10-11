@@ -6,7 +6,7 @@ const mailUrl = document.getElementById("mailUrl");
 
 ghToClick.addEventListener("click", (e) =>{
     ghToClick.style.cursor = "pointer";
-    window.open("https://github.com/patrykxly/OOP1-2021");
+    window.open("https://github.com/patrykxly/catering-app");
 })
 
 qnToClick.addEventListener("click", (e) =>{
@@ -14,7 +14,7 @@ qnToClick.addEventListener("click", (e) =>{
 })
 
 pageToClick.addEventListener("click", (e) =>{
-    window.open("https://patrykxly.github.io/shoppingsite/");
+    window.open("https://patrykxly.github.io/shoppingsite/index.html");
 })
 
 linkedinUrl.addEventListener("click", (e) =>{
